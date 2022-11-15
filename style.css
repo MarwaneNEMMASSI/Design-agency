@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+nav
+{
+    background-color:#F44336;
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1
+{
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+h2
+{
+    color: white;
+}
+
+p
+{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.TitreMenu
+{      
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.BoutonMenu
+{
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    cursor: pointer;
+
+}
+
+.BoutonMenu:hover
+{
+    background-color: white;
+    color: black;
+    padding-bottom: 5px;
+    padding-top:2,5px;
+    padding-right: 10px;
+}
+
+/* petite barre rouge en dessous du titre de la section */
+.RedLine
+{
+    border: 4px solid #F44336;
+    height: 1px;
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;       
+}
+
+.PremierePhotoPremiereLigne
+{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.DeuxiemePhotoPremiereLigne
+{
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.CoinInferieurGauche
+{
+    margin-left: 400px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.CoinInferieurDroit
+{
+   margin-left: 15px;
+   margin-top: 15px;
+   width: 400px;
+}
+
+.Paragraphe
+{
+    color: black;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.SectionTitle
+{
+    color: #F44336;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.TitreIntermediaire
+{
+    font-weight: bolder;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.DesignersSection
+{   
+    margin-left: 385px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PhotosDesigner
+{
+    width: 100%;
+    height: 200px;
+}
+.Team
+{
+    background-color: #f1f1f1;
+    width: 30%;
+    font-weight: bold;
+}
+.Founders
+{
+    padding: 10px 10px 10px 10px;
+}
+.DesignersName
+{
+    padding-bottom: 15px;
+}
+.FoundersTitle
+{
+    padding-bottom: 15px;
+    color: lightgray;
+}
+.PremierTableau
+{
+    margin-left: 400px;
+}
+.Tableaux
+{
+    display: flex;
+}
+
+.PremierTableauHeader
+{
+    background-color: darkgrey;
+    height: 75px;
+}
+.DeuxiemeTableauHeader
+{
+    background-color: #F44336;
+    height: 75px;
+}
+
+td
+{
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+table
+{
+    width : 425px;
+    height: 35px;
+    border: 0px;
+    background-color: white;
+}
+
+.Bouton
+{
+    width: 75px;
+    height: 35px;
+    border: 0px;
+    background-color:white;
+}
+.Bouton:hover
+{
+    background-color: black;
+    color: white;
+}
+.DeuxiemeBouton
+{
+    width: 75px;
+    height: 35px;
+    border: 0px;
+    background-color:#F44336;
+    color: white;
+}
+.DeuxiemeBouton:hover
+{
+    background-color: black;
+    color: white;
+}
+.ContactText
+{
+    color:black;
+    margin-left: 400px;
+}
+.Form
+{
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 35px;
+}
+.FormTitle
+{
+    color: black;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.BoutonFormulaire
+{
+    margin-left: 400px;
+    margin-bottom: 75px;
+    background-color: #F44336;
+    color: white;
+    width: 800px;
+    height: 35px;
+    border: 0px;
+    padding-bottom: 33px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.BoutonFormulaire:hover
+{
+    background-color: grey;
+}
+
+footer
+{
+    background-color: lightgray;
+    padding-top: 50px;
+    height: 75px; 
+}
+i
+{
+    margin-left: 400px;
+    cursor: pointer;
+}
